@@ -1,0 +1,50 @@
+.featuredPost {
+    .container {
+        display: flex;
+        gap: 3.2rem;
+    }
+    &-left {
+        h2 {
+            margin-bottom: 3.2rem;
+        }
+    }
+    &-main {
+        display: flex;
+        gap: 1.6rem;
+        flex-direction: column;
+        padding: 3.2rem;
+        border: 0.1rem solid #6d6e7638;
+        width: 73.1rem;
+
+        &__img {
+            height: 35rem;
+            margin-bottom: 1.6rem;
+
+            img {
+                object-fit: cover;
+            }
+        }
+        &__text {
+            margin-bottom: 1.6rem;
+        }
+    }
+    &-right {
+        &__header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 3.2rem;
+            justify-content: space-between;
+        }
+    }
+    &-item {
+        padding: 3.2rem 11.6rem 2.5rem 3.2rem;
+        display: block;
+
+        &__inf {
+            margin-bottom: 0.8rem;
+        }
+        &:hover {
+            background: #FBF6EA;
+        }
+    }
+}
