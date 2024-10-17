@@ -10,7 +10,6 @@
     &-item {
         padding: 3.2rem;
         border: 0.1rem solid #6D6E764D;
-
         
         &__icon {
             background: #FBF6EA;
@@ -26,6 +25,9 @@
         }
         h3 {
             margin-bottom: 0.4rem;
+        }
+        .body01 {
+            color: #6D6E76;
         }
 
         &:hover {
